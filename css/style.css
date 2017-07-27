@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+    
+}
+#carousel {
+    border: 1px solid red;
+    width: 800px;
+    height: 600px;    
+    overflow: auto;
+}
+#carousel ul {
+    width: 2000px;
+    margin: 0;
+    padding: 0;
+}
+#carousel ul li {
+    width: 400px;
+    height: 300px;
+    list-style: none;
+    float: left;
+}
