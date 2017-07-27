@@ -1,16 +1,15 @@
-body {
+#myBody {
     background-color: gray;
     
 }
 #carousel {
-    border: 1px solid red;
-    width: 800px;
-    height: 600px;    
-    overflow: auto;
+    width: 400px;
+    height: 400px;    
+    overflow: hidden;    
 }
 #carousel ul {
     width: 2000px;
-    margin: 0;
+    margin-left: -400px;
     padding: 0;
 }
 #carousel ul li {
@@ -18,4 +17,16 @@ body {
     height: 300px;
     list-style: none;
     float: left;
+}
+#carousel img {
+    height: 400px;
+    width: 400px;
+}
+#left, #right {
+    width: 100px;
+    height: 50px;
+    background: darkblue;
+    color: white;
+    border-radius: 12px;
+    border: 0;
 }
